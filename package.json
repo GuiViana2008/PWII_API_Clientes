@@ -1,0 +1,20 @@
+{
+  "name": "pwii_api_clientes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/GuiViana2008/PWII_API_Clientes#readme",
+  "bugs": {
+    "url": "https://github.com/GuiViana2008/PWII_API_Clientes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiViana2008/PWII_API_Clientes.git"
+  },
+  "license": "ISC",
+  "author": "Guilherme",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
