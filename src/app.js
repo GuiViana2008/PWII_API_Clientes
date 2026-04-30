@@ -8,8 +8,8 @@ app.use(express.json());
 
 app.get("/", (req, res) =>{
     res.json({
-        mensagem: "API de clientes"
-        versao: "1.0.0"
+        mensagem: "API de clientes",
+        versao: "1.0.0",
         endpoints: {
             ListarTodos: "GET /clientes",
             BuscarPorId: "GET0 /clientes/:id",
