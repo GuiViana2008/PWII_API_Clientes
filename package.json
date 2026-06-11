@@ -1,28 +1,20 @@
 {
-  "name": "pwii_api_clientes",
+  "name": "api-clientes",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/GuiViana2008/PWII_API_Clientes#readme",
-  "bugs": {
-    "url": "https://github.com/GuiViana2008/PWII_API_Clientes/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GuiViana2008/PWII_API_Clientes.git"
-  },
-  "license": "ISC",
-  "author": "Guilherme",
-  "type": "commonjs",
-  "main": "index.js",
+  "description": "API REST de Clientes em Express - Padrão MVC",
+  "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js"
   },
   "dependencies": {
-    "@prisma/client": "^7.8.0",
+    "@prisma/client": "^6.19.3",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mysql2": "^3.22.4",
-    "prisma": "^7.8.0"
+    "prisma": "^6.19.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
